@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   
   s.platform     = :ios, "10.0"
 
-  s.source       = { :git => 'https://github.com/AnupSukumaran/ThreeRingControl', :tag => '1.0.0' }
+  s.source       =  s.source       = { :git => 'https://github.com/AnupSukumaran/ThreeRingControl', :tag => '1.0.0' }
 
 
   s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
 
   s.resources    = "ThreeRingControl/*.mp3"
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = {'SWIFT_VERSION' => '4.0'}
 
 end
