@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9261BA20355024002BEFD6 /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9261B020355024002BEFD6 /* ThreeRingControl.framework */; };
+		5A9261BF20355024002BEFD6 /* ThreeRingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261BE20355024002BEFD6 /* ThreeRingControlTests.swift */; };
+		5A9261C120355024002BEFD6 /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9261B320355024002BEFD6 /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9261D22035531E002BEFD6 /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261CA2035531D002BEFD6 /* RingLayer.swift */; };
+		5A9261D32035531E002BEFD6 /* coin07.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A9261CB2035531D002BEFD6 /* coin07.mp3 */; };
+		5A9261D42035531E002BEFD6 /* ThreeRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261CC2035531D002BEFD6 /* ThreeRingView.swift */; };
+		5A9261D52035531E002BEFD6 /* CircularGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261CD2035531D002BEFD6 /* CircularGradient.swift */; };
+		5A9261D62035531E002BEFD6 /* Fanfare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261CE2035531D002BEFD6 /* Fanfare.swift */; };
+		5A9261D72035531E002BEFD6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261CF2035531E002BEFD6 /* Utilities.swift */; };
+		5A9261D82035531E002BEFD6 /* RingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261D02035531E002BEFD6 /* RingTip.swift */; };
+		5A9261D92035531E002BEFD6 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A9261D12035531E002BEFD6 /* winning.mp3 */; };
+		5A9261EE20358767002BEFD6 /* ThreeRingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9261ED20358767002BEFD6 /* ThreeRingTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9261BB20355024002BEFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9261A720355024002BEFD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9261AF20355024002BEFD6;
+			remoteInfo = ThreeRingControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A9261B020355024002BEFD6 /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9261B320355024002BEFD6 /* ThreeRingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeRingControl.h; sourceTree = "<group>"; };
+		5A9261B420355024002BEFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9261B920355024002BEFD6 /* ThreeRingControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeRingControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9261BE20355024002BEFD6 /* ThreeRingControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeRingControlTests.swift; sourceTree = "<group>"; };
+		5A9261C020355024002BEFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9261CA2035531D002BEFD6 /* RingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
+		5A9261CB2035531D002BEFD6 /* coin07.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin07.mp3; sourceTree = "<group>"; };
+		5A9261CC2035531D002BEFD6 /* ThreeRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingView.swift; sourceTree = "<group>"; };
+		5A9261CD2035531D002BEFD6 /* CircularGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGradient.swift; sourceTree = "<group>"; };
+		5A9261CE2035531D002BEFD6 /* Fanfare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fanfare.swift; sourceTree = "<group>"; };
+		5A9261CF2035531E002BEFD6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5A9261D02035531E002BEFD6 /* RingTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingTip.swift; sourceTree = "<group>"; };
+		5A9261D12035531E002BEFD6 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		5A9261ED20358767002BEFD6 /* ThreeRingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeRingTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9261AC20355024002BEFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9261B620355024002BEFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9261BA20355024002BEFD6 /* ThreeRingControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9261A620355024002BEFD6 = {
+			isa = PBXGroup;
+			children = (
+				5A9261B220355024002BEFD6 /* ThreeRingControl */,
+				5A9261BD20355024002BEFD6 /* ThreeRingControlTests */,
+				5A9261B120355024002BEFD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9261B120355024002BEFD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9261B020355024002BEFD6 /* ThreeRingControl.framework */,
+				5A9261B920355024002BEFD6 /* ThreeRingControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9261B220355024002BEFD6 /* ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				5A9261CD2035531D002BEFD6 /* CircularGradient.swift */,
+				5A9261CB2035531D002BEFD6 /* coin07.mp3 */,
+				5A9261CE2035531D002BEFD6 /* Fanfare.swift */,
+				5A9261CA2035531D002BEFD6 /* RingLayer.swift */,
+				5A9261D02035531E002BEFD6 /* RingTip.swift */,
+				5A9261CC2035531D002BEFD6 /* ThreeRingView.swift */,
+				5A9261CF2035531E002BEFD6 /* Utilities.swift */,
+				5A9261D12035531E002BEFD6 /* winning.mp3 */,
+				5A9261B320355024002BEFD6 /* ThreeRingControl.h */,
+				5A9261B420355024002BEFD6 /* Info.plist */,
+			);
+			path = ThreeRingControl;
+			sourceTree = "<group>";
+		};
+		5A9261BD20355024002BEFD6 /* ThreeRingControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9261BE20355024002BEFD6 /* ThreeRingControlTests.swift */,
+				5A9261ED20358767002BEFD6 /* ThreeRingTest.swift */,
+				5A9261C020355024002BEFD6 /* Info.plist */,
+			);
+			path = ThreeRingControlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A9261AD20355024002BEFD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9261C120355024002BEFD6 /* ThreeRingControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A9261AF20355024002BEFD6 /* ThreeRingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9261C420355024002BEFD6 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */;
+			buildPhases = (
+				5A9261AB20355024002BEFD6 /* Sources */,
+				5A9261AC20355024002BEFD6 /* Frameworks */,
+				5A9261AD20355024002BEFD6 /* Headers */,
+				5A9261AE20355024002BEFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeRingControl;
+			productName = ThreeRingControl;
+			productReference = 5A9261B020355024002BEFD6 /* ThreeRingControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A9261B820355024002BEFD6 /* ThreeRingControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9261C720355024002BEFD6 /* Build configuration list for PBXNativeTarget "ThreeRingControlTests" */;
+			buildPhases = (
+				5A9261B520355024002BEFD6 /* Sources */,
+				5A9261B620355024002BEFD6 /* Frameworks */,
+				5A9261B720355024002BEFD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9261BC20355024002BEFD6 /* PBXTargetDependency */,
+			);
+			name = ThreeRingControlTests;
+			productName = ThreeRingControlTests;
+			productReference = 5A9261B920355024002BEFD6 /* ThreeRingControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9261A720355024002BEFD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AssaRadviewTech;
+				TargetAttributes = {
+					5A9261AF20355024002BEFD6 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					5A9261B820355024002BEFD6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5A9261AA20355024002BEFD6 /* Build configuration list for PBXProject "ThreeRingControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A9261A620355024002BEFD6;
+			productRefGroup = 5A9261B120355024002BEFD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9261AF20355024002BEFD6 /* ThreeRingControl */,
+				5A9261B820355024002BEFD6 /* ThreeRingControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9261AE20355024002BEFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9261D32035531E002BEFD6 /* coin07.mp3 in Resources */,
+				5A9261D92035531E002BEFD6 /* winning.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9261B720355024002BEFD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9261AB20355024002BEFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9261D22035531E002BEFD6 /* RingLayer.swift in Sources */,
+				5A9261D82035531E002BEFD6 /* RingTip.swift in Sources */,
+				5A9261D42035531E002BEFD6 /* ThreeRingView.swift in Sources */,
+				5A9261D52035531E002BEFD6 /* CircularGradient.swift in Sources */,
+				5A9261D72035531E002BEFD6 /* Utilities.swift in Sources */,
+				5A9261D62035531E002BEFD6 /* Fanfare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9261B520355024002BEFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9261EE20358767002BEFD6 /* ThreeRingTest.swift in Sources */,
+				5A9261BF20355024002BEFD6 /* ThreeRingControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9261BC20355024002BEFD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A9261AF20355024002BEFD6 /* ThreeRingControl */;
+			targetProxy = 5A9261BB20355024002BEFD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A9261C220355024002BEFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A9261C320355024002BEFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A9261C520355024002BEFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = X8GUP93935;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThreeRingControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AssaRadviewTech.ThreeRingControl;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A9261C620355024002BEFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = X8GUP93935;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThreeRingControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AssaRadviewTech.ThreeRingControl;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A9261C820355024002BEFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GUP93935;
+				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AssaRadviewTech.ThreeRingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A9261C920355024002BEFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8GUP93935;
+				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AssaRadviewTech.ThreeRingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9261AA20355024002BEFD6 /* Build configuration list for PBXProject "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9261C220355024002BEFD6 /* Debug */,
+				5A9261C320355024002BEFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9261C420355024002BEFD6 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9261C520355024002BEFD6 /* Debug */,
+				5A9261C620355024002BEFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9261C720355024002BEFD6 /* Build configuration list for PBXNativeTarget "ThreeRingControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9261C820355024002BEFD6 /* Debug */,
+				5A9261C920355024002BEFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9261A720355024002BEFD6 /* Project object */;
+}
